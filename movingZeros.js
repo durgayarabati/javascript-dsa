@@ -6,7 +6,7 @@ function movingZeros(nums){
             let temp=nums[left]
             nums[left]=nums[right]
             nums[right]=temp
-            left++
+            
         }
     }
 
